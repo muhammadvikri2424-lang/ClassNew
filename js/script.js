@@ -46,3 +46,17 @@ alert("Login berhasil");
 }
 
 }
+// MENU MOBILE
+
+const menuBtn = document.querySelector(".menu-btn");
+const menu = document.querySelector(".menu");
+
+if(menuBtn){
+
+menuBtn.addEventListener("click", function(){
+
+menu.classList.toggle("active");
+
+});
+
+}
