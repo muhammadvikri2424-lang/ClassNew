@@ -291,6 +291,28 @@ text-align:center;
 
 
 @media(max-width:768px){
+  
+  nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+
+.logo{
+order:1;
+}
+
+
+.menu-btn{
+order:2;
+margin-left:15px;
+}
+
+
+nav > button:not(.menu-btn){
+order:3;
+}
 
 .hero,
 .learning{
