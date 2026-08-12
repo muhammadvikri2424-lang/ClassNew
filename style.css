@@ -291,6 +291,54 @@ text-align:center;
 
 
 @media(max-width:768px){
+  .menu{
+
+transition:0.3s ease;
+
+}
+
+
+@media(max-width:768px){
+
+.menu{
+
+display:none;
+position:absolute;
+top:95px;
+right:20px;
+
+background:white;
+
+width:180px;
+
+padding:20px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px #0002;
+
+z-index:100;
+
+}
+
+
+.menu a{
+
+display:block;
+padding:12px;
+
+text-decoration:none;
+
+}
+
+
+.menu.active{
+
+display:block;
+
+}
+
+}
   
 /* POSISI MENU MOBILE */
 @media(max-width:768px){
